@@ -1,0 +1,51 @@
+.hero {
+    margin-top: 3.8rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.hero img, .hero svg {
+    overflow: visible;
+    width: 100%;
+}
+
+.hero svg {
+    /*background-color: green;*/
+}
+
+.hero #stakeBtn {
+    /*background-color: red;*/
+    margin-bottom: 2rem;
+}
+
+.hero .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .buttonsContainer ul li .ImageButton img:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.hero .buttonsContainer ul {
+    list-style-type: none;
+    padding: 0;
+    /*flex: 1;*/
+    position: absolute;
+    right: 0;
+}
+
+.hero .buttonsContainer ul li {
+    display: inline;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero #stakeBtn {
+        flex: 1;
+    }
+    .hero .buttonsContainer ul {
+        flex: 1;
+    }
+}

@@ -1,0 +1,26 @@
+.comingSoon {
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+}
+
+.comingSoon h1 {
+    z-index: 100;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+
+.comingSoon h1 {
+    color: #070600;
+    text-shadow: 7px 7px #FD921B;
+}
+
+@media only screen and (max-width: 500px) {
+    .comingSoon h1 {
+        text-shadow: 3px 3px #FD921B;
+    }
+}

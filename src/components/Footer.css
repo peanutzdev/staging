@@ -1,0 +1,38 @@
+.footerSection {
+    background-color: #070600;
+    color: #F3D6A3;
+    font-size: 0.75rem;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footerSection .section {
+    padding-bottom: 3rem;
+    margin-bottom: 0px;
+}
+
+.footerSection ul {
+    padding-left: 0px;
+}
+
+.footerSection ul li {
+    background-color: #F3D6A3;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.footerSection .section .wrapper ul li .ImageButton img:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.footerSection .section .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    align-items: center;
+}

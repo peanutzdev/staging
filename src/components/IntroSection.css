@@ -1,0 +1,38 @@
+.introSection {
+    display: flex;
+    max-width: 100vw;
+}
+
+.introSection img {
+    object-fit: contain;
+    margin-left: 1rem;
+}
+
+#introPeanutzImgSmall {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    #introPeanutzImg {
+        display: none;
+    }
+    #introPeanutzImgSmall {
+        display: block;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #introPeanutzImg {
+        display: block;
+        margin-left: 0rem;
+        max-height: 100vw;
+    }
+    #introPeanutzImgSmall {
+        display: none;
+    }
+
+    .introSection {
+        flex-direction: column-reverse;
+    }
+}

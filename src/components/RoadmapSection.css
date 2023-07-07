@@ -1,0 +1,80 @@
+.roadmapSection {
+    max-width: 100%;
+    overflow: hidden;
+}
+.roadmapHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    overflow: visible;
+}
+
+.roadmapHeader h1 {
+    z-index: 100;
+    position: relative;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .roadmapSection {
+        z-index: 100;
+        overflow: visible;
+    }
+    .roadmapHeader {
+        flex-direction: column;
+        justify-content: center;
+        overflow: visible;
+    }
+    .roadmapHeader img {
+        width: 15%;
+        position: absolute;
+        top: -1rem;
+        left: 0rem;
+    }
+    .roadmapHeader img:last-child {
+        left: unset;
+        right: 0rem;
+        bottom: -1rem;
+        top: unset;
+    }
+}
+
+.roadmapBody {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.roadmapBodyItem {
+    background-color: #FD921B;
+    border: 5px solid #070600;
+    box-shadow: 7px 7px 0px 0px #070600;
+    border-radius: 2.5rem;
+    margin: 7px;
+    padding: 6%;
+    padding-right: 3%;
+}
+
+.roadmapBodyItem ul {
+    padding-left: 6%;
+}
+.roadmapBody ul li {
+    margin-top: 1.25rem;
+}
+
+.roadmapBodyItem img {
+    float: right;
+}
+
+@media only screen and (max-width: 900px) {
+    .roadmapBody {
+        grid-template-columns: 1fr;
+    }
+}

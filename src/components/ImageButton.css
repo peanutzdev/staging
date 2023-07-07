@@ -1,0 +1,14 @@
+.ImageButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.ImageButton img {
+    padding: 0;
+    margin: 0;
+    transition: 0.1s;
+}
+
+.ImageButton img:hover {
+    transform: scale(0.95, 0.95);
+}

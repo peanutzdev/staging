@@ -1,0 +1,55 @@
+.app-header, .app-header a {
+    color: #070600;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+}
+
+.app-header a:hover {
+    text-decoration: underline;
+}
+
+.app-header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.app-header ul li {
+    display: inline;
+    margin: 1.25rem;
+}
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.app-header svg {
+}
+
+@media only screen and (max-width: 900px) {
+    .app-header, .app-header a {
+        font-size: 1.25rem;
+    }
+    .app-header ul li {
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .app-header, .app-header a {
+        font-size: 1rem;
+    }
+    .app-header ul li {
+        margin: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .app-header ul {
+        display: none;
+    }
+}
