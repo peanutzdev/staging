@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0df34ca2.css",
+    "main.js": "/static/js/main.2fee707c.js",
+    "static/js/787.850653bc.chunk.js": "/static/js/787.850653bc.chunk.js",
+    "static/media/mrpeanut@2x.png": "/static/media/mrpeanut@2x.5edae076fc925c0295a3.png",
+    "static/media/pnzhero.png": "/static/media/pnzhero.521868b40616ae14f99d.png",
+    "static/media/mrpeanut.png": "/static/media/mrpeanut.3edcad094c821a8de5d6.png",
+    "static/media/roadmap-nutz.svg": "/static/media/roadmap-nutz.9ad80218138e0b9ad6455262717a1ca1.svg",
+    "static/media/logoSm.svg": "/static/media/logoSm.d02df2e14516a36dbc4fd8bcad0d2ffa.svg",
+    "static/media/Glossy Sheen Regular DEMO.ttf": "/static/media/Glossy Sheen Regular DEMO.49248ce42805d2366c44.ttf",
+    "static/media/nutz-right.svg": "/static/media/nutz-right.a6fe052e474fa920264aaa53304be112.svg",
+    "static/media/nutz-left.svg": "/static/media/nutz-left.f8d12b3611c8f70069d770f649d42c35.svg",
+    "static/media/stake.svg": "/static/media/stake.600c5b61f18a440b2faf8ad572eb2e9c.svg",
+    "static/media/rocket-left.svg": "/static/media/rocket-left.74f52ff11ae800058fa17fc03f4d5453.svg",
+    "static/media/rocket-right.svg": "/static/media/rocket-right.a797bb8beb2fa667323cb8d6e86aeb78.svg",
+    "static/media/buy.svg": "/static/media/buy.ba25a72cc735a177c3c2c0af66871333.svg",
+    "static/media/discord.svg": "/static/media/discord.ad471002ee2cfcca4f5a78e363f8528e.svg",
+    "static/media/tokenomics-pie-chart.svg": "/static/media/tokenomics-pie-chart.88472fc1fafa72f6f01aed50fcf2607c.svg",
+    "static/media/twitter.svg": "/static/media/twitter.9660ed98d8eb81dd5d3149318121e36a.svg",
+    "index.html": "/index.html",
+    "static/media/telegram.svg": "/static/media/telegram.35ffdc60b41ecb8f8a10cfe654893901.svg",
+    "main.0df34ca2.css.map": "/static/css/main.0df34ca2.css.map",
+    "main.2fee707c.js.map": "/static/js/main.2fee707c.js.map",
+    "787.850653bc.chunk.js.map": "/static/js/787.850653bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0df34ca2.css",
+    "static/js/main.2fee707c.js"
+  ]
+}
