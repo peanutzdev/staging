@@ -29,11 +29,15 @@
   max-width: 1077px;
 }
 
+body > iframe {
+  display: none;
+}
+
 body {
   margin: 0;
   background-color: #F3D6A3;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  sans-serif;
   font-weight: 400;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -46,7 +50,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .section {

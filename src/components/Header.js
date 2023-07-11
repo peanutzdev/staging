@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import LogoSmImg from "../images/logoSm.svg";
 import ImageButton from "./ImageButton";
 import BuyImg from "../images//buy.svg"
+import { ConnectWallet } from "@thirdweb-dev/react";
+
 
 const Header = (props) => {
     const onBuyClick = (e) => {
@@ -14,7 +16,7 @@ const Header = (props) => {
             <nav>
                 <ul>
                     {props.nav.map(link => {
-                        return (<li><a href={link.url}>{link.title}</a></li>)
+                        return (<li key={link.title}><a href={link.url}>{link.title}</a></li>)
                     })}
                 </ul>
             </nav>

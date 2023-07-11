@@ -1,0 +1,51 @@
+.stakeControlsContainer {
+    /*background-color: #EE1B1B;*/
+    display: flex;
+    align-items: normal;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.stakeControls {
+    flex: 1 1 0;
+    width: 0;
+    /*background-color: #FD921B;*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.claimRewards {
+    flex: 1 1 0;
+    width: 0;
+    /*background-color: aqua;*/
+}
+
+.stakeControlsItemsContainer {
+    /*background-color: magenta;*/
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.stakeControlsItem {
+    flex: 1;
+}
+
+.stakeControlsItem Button {
+    flex: 1;
+    width: 100%;
+}
+
+.inputContainer {
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+
+.inputContainer input {
+    width: 99%;
+}
+
+.inputContainer Button {
+}
