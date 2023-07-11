@@ -35,10 +35,11 @@ function TokenInfoZero(): TokenInfo {
 export function useTokenInfo(tokenAddress: string, walletAddress?: string) {
     const [tokenInfo, setTokenInfo] = React.useState(TokenInfoZero())
     const [loading, setLoading] = React.useState(false)
+    const [reload, setReload] = React.useState(true)
     const provider = useSigner()?.provider
 
     React.useEffect(() => {
-        async function loadBalance() {
+        async function loadTokenInfo() {
             try {
                 if (!walletAddress || !provider) {
                     setLoading(false)
@@ -50,7 +51,6 @@ export function useTokenInfo(tokenAddress: string, walletAddress?: string) {
                 const decimals = await contract.decimals()
                 const balance = await contract.balanceOf(walletAddress)
                 const formattedBalance = ethers.utils.formatUnits(balance, decimals)
-
                 const tokenInfo = {
                     name: await contract.name(),
                     symbol: await contract.symbol(),
@@ -68,12 +68,18 @@ export function useTokenInfo(tokenAddress: string, walletAddress?: string) {
                 return TokenInfoZero
             }
         }
-        if (walletAddress !== "") {
-            loadBalance()
-        }
-    }, [walletAddress, tokenAddress, provider]);
+        if (walletAddress !== "" && reload) {
+            loadTokenInfo()
+            setReload(false)
 
-    return { tokenInfo: tokenInfo, loading: loading };
+        }
+    }, [walletAddress, tokenAddress, provider, reload]);
+
+    return {
+        tokenInfo: tokenInfo,
+        reload: ()=>{ setReload(true) },
+        loading: loading
+    };
 }
 
 

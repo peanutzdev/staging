@@ -3,7 +3,7 @@ import {useNetwork} from "@thirdweb-dev/react";
 export function useTokenAddress(): string {
     const network =  useNetwork()
     if (network[0].data.chain?.chainId == 11155111) {
-        return "0xb99A2FdeA0ec54a74F600b22F8A5A815899C7089"
+        return "0xBd850307ed15848fece6a1A438A187a6FFEF9628"
     }
     return ""
 }
@@ -11,7 +11,7 @@ export function useTokenAddress(): string {
 export function useRewardTokenAddress(): string {
     const network =  useNetwork()
     if (network[0].data.chain?.chainId == 11155111) {
-        return "0x6713edB937e510D6Fbe022bf836205cE44C6D079"
+        return "0xea4ad5E11f319A82644f8EF5C34b43C6a140B517"
     }
     return ""
 }
@@ -19,8 +19,7 @@ export function useRewardTokenAddress(): string {
 export function useStakingAddress(): string {
     const network =  useNetwork()
     if (network[0].data.chain?.chainId == 11155111) {
-        return "0xC84E686c7fF71475f055D44De6C324Da3Dd39818"
-        //"0x38a16Dc497767118f36ec0Fc34b9167368aA8284"
+        return "0x3f876d7462B5D71D4D95cD3c9B3b6a59D7dDC353"
     }
     return ""
 }
