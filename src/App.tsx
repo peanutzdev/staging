@@ -8,10 +8,10 @@ export default function App() {
   return (
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/swap" element={<Swap />} />
-          <Route path="/staketoken" element={<StakeToken />} />
-          <Route path="/stakelp" element={<StakeLP />} />
+          <Route path="/staging/" element={<Home />} />
+          <Route path="/staging/swap" element={<Swap />} />
+          <Route path="/staging/staketoken" element={<StakeToken />} />
+          <Route path="/staging/stakelp" element={<StakeLP />} />
         </Routes>
       </Router>
   );

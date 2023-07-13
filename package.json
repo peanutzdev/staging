@@ -1,6 +1,6 @@
 {
-  "name": "frontend_staging_3",
-  "homepage": "https://www.peanutz.io/staging",
+  "name": "frontend_staging a",
+  "homepage": "https://www.peanutz.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +15,7 @@
     "@uniswap/widgets": "2.18.0",
     "dotenv": "^16.3.1",
     "ethers": "^5",
+    "gh-pages": "^5.0.0",
     "react": "^18.2",
     "react-dom": "^18.2",
     "react-router-dom": "^6.14.1",
@@ -33,11 +34,12 @@
     "stream": "^0.0.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && npx thirdweb@latest upload build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
