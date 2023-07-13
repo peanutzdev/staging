@@ -1,0 +1,31 @@
+.stakeLPConnected {
+
+}
+
+.stakeLPBalancesContainer {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.stakeLPBalancesItem {
+
+}
+
+.stakeLPControlsContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.stakeLPControlsItem {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.stakeLPControlsSubItem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
